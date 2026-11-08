@@ -2,18 +2,70 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
-    padding: 10px;
-    background-color: lightblue;
+    background-color: rgb(197, 231, 243);
     color: black;
 }
 /* --- Header --- */
 header {
-    margin: auto;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: white;
+}
+
+.header-offset {
+    margin-left: 2.5em;
+    padding: 0;
 }
 /* --- Navigation --- */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-left: -1em;
+    margin-right: -1em;
+    background-color: aliceblue;
+}
+
+nav li {
+    float: left;
+    display: block;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding: 0.5em;
+}
+
+nav li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: rgb(197, 219, 238);
+    text-decoration: underline;
+}
 
 /* --- Tables --- */
 
 /* --- Forms --- */
 
+/* --- Main --- */
+main {
+    margin: 1em;
+}
+
 /* --- Footer --- */
+footer {
+    display: inline-block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 0.2em solid aliceblue;
+    background-color: white;
+}

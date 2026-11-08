@@ -1,25 +1,43 @@
 /* --- Image Parameters --- */
+.description-box {
+    text-align: center;
+}
 
-.horizontal-div div {
+.horizontal-div {
     float: left;
-    clear: none;
 }
 
 .img-box {
-    border: 2px solid black;     
-    /* margin-left: auto;   [images are flush with the right side of the page] */
+    float: left;
+    clear: none;
     width: fit-content;
     display: grid;
     margin: 1em;
+    border: 2px solid black;     
+    background-color: rgb(215, 245, 255);
 }
 
 .gallery-img {
     max-width: 20rem;
     max-height: auto;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 
-.img-title {
+.gallery-img:hover {
+    transform: scale(1.1);
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+
+.img-desc {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
     text-align: center;
 }
+
+/* --- Unused (But still here!)
+
+.gallery {}
+.summary {}
+
+*/

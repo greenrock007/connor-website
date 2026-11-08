@@ -1,0 +1,9 @@
+Current Ideas for implementation:
+
+Animated background (like dandelions, or similar)
+Tooltips
+Clicking on an image brings up a larger version while graying out the background (Animated)
+Music(?) section
+Add images to a file/database
+Fill out main page
+Fill out games page (favorites, make something simple)
