@@ -33,9 +33,10 @@ the column with the most space in it currently */
 }
 
 .img-desc {
+    max-width: 20rem;
+    text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
-    text-align: center;
 }
 
 #lightbox {
