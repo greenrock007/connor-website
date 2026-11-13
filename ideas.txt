@@ -2,8 +2,13 @@ Current Ideas for implementation:
 
 Animated background (like dandelions, or similar)
 Tooltips
-Clicking on an image brings up a larger version while graying out the background (Animated)
 Music(?) section
 Add images to a file/database
 Fill out main page
 Fill out games page (favorites, make something simple)
+    Connect genshin account and steam account through API to display stats
+
+Descriptions are getting cut off, we want the footer to generate only
+    below the lowest description cutoff. Also, we want images to be inserted in 
+    the column with the most space in it currently
+
